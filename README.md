@@ -32,7 +32,6 @@ Create a virtual environment and install the required packages:
 
 ```bash
 pip install -r requirements.txt
-Start Jupyter Notebook:
 ```
 
 Start Jupyter Notebook:
