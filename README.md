@@ -43,23 +43,31 @@ jupyter notebook
 
 Once your environment is ready, you're all set to dive into the exercises.
 
-## Iteration 1: Audio Transcription with Wav2Vec2
+## Iteration 1: Audio Transcription with Speech2Text and Word Error Rate Calculation
 
-**Model**: **Wav2Vec2** from Hugging Face.
+**Model**: **Speech2Text** from Hugging Face.
 
-**Task**: Load a pre-trained model and transcribe the audio file `content_creation.wav` to text using **Wav2Vec2**.
+**Task**: Load a pre-trained model and transcribe the audio file `mozilla_tts_output.wav` to text using **Speech2Text**. Then, calculate the **Word Error Rate (WER)** by comparing the generated transcription with the reference text.
 
-**Analysis**: Review the transcription obtained and analyze its accuracy compared to the original spoken text.
+### Steps:
+1. Load the pre-trained `facebook/s2t-small-librispeech-asr` model and the processor.
+2. Load the audio file `mozilla_tts_output.wav`, resample it to 16,000 Hz if necessary, and prepare it for inference.
+3. Generate the transcription using the model.
+4. Compare the generated transcription with the ground truth (reference transcription).
+5. Calculate the **WER** to assess the accuracy of the transcription.
 
 ---
 
-## Iteration 2: Key Technologies in Audio-to-Text Generation
+## Iteration 2: Key Technologies in Audio-to-Text Generation with Speech2Text
 
-**Task**: Explore the underlying technology used by **Wav2Vec2**, particularly focusing on automatic speech recognition (**ASR**) systems.
+**Task**: Explore the underlying technology used by **Speech2Text**, particularly focusing on automatic speech recognition (**ASR**) systems.
 
-**Objective**: Understand how ASR systems are used in real-world applications such as voice assistants, customer service automation, and accessibility tools.
+**Objective**: Understand how ASR systems, specifically those utilized in models like **Speech2Text**, are applied in real-world scenarios such as voice assistants, customer service automation, and accessibility tools.
 
-**Analysis**: Discuss how the integration of audio-to-text models with ASR systems improves content creation processes in various industries.
+**Steps**:
+1. Investigate the architecture behind **Speech2Text** and its application of ASR technology.
+2. Explore how ASR models process audio signals and convert them into meaningful text.
+3. Analyze different real-world applications that benefit from the integration of **Speech2Text** models.
 
 ---
 
