@@ -61,8 +61,6 @@ Once your environment is ready, you're all set to dive into the exercises.
 
 **Task**: Explore the underlying technology used by **Speech2Text**, particularly focusing on automatic speech recognition (**ASR**) systems.
 
-**Objective**: Understand how ASR systems, specifically those utilized in models like **Speech2Text**, are applied in real-world scenarios such as voice assistants, customer service automation, and accessibility tools.
-
 **Steps**:
 1. Investigate the architecture behind **Speech2Text** and its application of ASR technology.
 2. Explore how ASR models process audio signals and convert them into meaningful text.
