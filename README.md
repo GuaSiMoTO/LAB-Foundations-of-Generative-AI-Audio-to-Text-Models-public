@@ -4,7 +4,7 @@
 
 ## Introduction
 
-In this lab, students will work with pre-trained **audio-to-text** models, such as **Wav2Vec2** and **Whisper**, available through Hugging Face, to explore their applications in content creation. The goal is for students to understand how these models work and learn to apply them in real-world projects without needing to build models from scratch.
+In this lab, students will work with pre-trained **audio-to-text** models, such as **Speech2Text** and **Whisper**, available through Hugging Face, to explore their applications in content creation. The goal is for students to understand how these models work and learn to apply them in real-world projects without needing to build models from scratch.
 
 Students will:
 1. Use pre-trained audio-to-text models.
