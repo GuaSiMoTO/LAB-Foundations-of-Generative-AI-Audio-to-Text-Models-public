@@ -114,11 +114,29 @@ Once your environment is ready, you're all set to dive into the exercises.
 
 ---
 
-## Bonus: Combining Text-to-Audio and Audio-to-Text Models
+## Bonus: Creating a Multimodal Chatbot (Text and Audio Input)
 
-**Task**: Combine the power of both text-to-audio and audio-to-text models. Create a small application that takes audio input, transcribes it into text, allows editing of the text, and then converts it back into audio using a text-to-speech model like **gTTS**.
+**Task**: Create a chatbot that can process both **text and audio** as input. The chatbot should detect whether the input is an audio file or a text string. If it's an audio file, the chatbot should transcribe it into text using an audio-to-text model (e.g., Whisper). If it's text, the chatbot should process it directly. The chatbot will then generate a response in text and offer the user the option to convert the response back into audio using a text-to-speech model (e.g., gTTS).
 
-**Objective**: Understand how different AI models can be integrated to create a seamless content creation pipeline.
+### Steps:
+1. Create a function that detects whether the input is an audio file or a text string.
+2. If the input is an audio file, transcribe the audio into text using an audio-to-text model.
+3. Process the text input (either transcribed or directly entered).
+4. Generate a response to the user in text.
+5. Provide an option to convert the chatbot's response back into audio using a text-to-speech model.
+
+**Objective**:
+- Build a chatbot that can handle both text and audio input.
+- Integrate audio-to-text and text-to-audio models for seamless interaction.
+
+**Analysis**:
+- Test the chatbot by providing different inputs (both text and audio) and evaluate its performance in transcribing and responding to user queries.
+- Consider how such a chatbot could be applied in real-world scenarios, such as customer service or virtual assistants.
+
+### Requirements:
+- Use a pre-trained audio-to-text model for transcription (e.g., Whisper).
+- Use a text-to-speech model (e.g., gTTS) for converting text back into audio.
+- Ensure the chatbot can handle errors, such as invalid file formats or empty input.
 
 
 ## Additional Resources
