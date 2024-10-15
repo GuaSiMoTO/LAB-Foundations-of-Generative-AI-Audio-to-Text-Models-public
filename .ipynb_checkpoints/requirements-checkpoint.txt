@@ -1,8 +1,0 @@
-transformers
-tensorflow
-soundfile
-gtts
-jax
-jaxlib
-librosa
-jiwer
