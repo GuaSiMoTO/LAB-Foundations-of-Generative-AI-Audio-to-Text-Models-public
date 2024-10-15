@@ -80,7 +80,6 @@ Once your environment is ready, you're all set to dive into the exercises.
 ### Analysis:
 - **Strengths and Weaknesses**: Compare the performance of **Speech2Text** and **Whisper** in handling background noise, accents, or unclear speech. Discuss which model provides a more accurate transcription and why.
 - **Limitations**: Identify the limitations of each model, such as how they manage noisy environments or challenging audio conditions.
-- **Recommendations**: Consider areas where improvements might be needed for both models and suggest possible solutions or future model enhancements.
 
 ---
 
