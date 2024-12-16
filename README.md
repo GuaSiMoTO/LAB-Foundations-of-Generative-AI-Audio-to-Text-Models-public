@@ -128,6 +128,7 @@ Once your environment is ready, you're all set to dive into the exercises.
 **Task**: Analyze the broader impact of audio-to-text models on industries such as content creation, media, and accessibility. Research how companies are using these technologies to enhance their workflows and deliver better services.
 
 **Practical Application**: Explore how media companies, podcast creators, or e-learning platforms use audio-to-text models to improve content accessibility and engagement.
+
 ---
 
 ## Bonus: Creating a Multimodal Chatbot (Text and Audio Input)
